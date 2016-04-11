@@ -18,15 +18,30 @@
 .right-rail{
   width:45%; 
   float:left;
-  margin-top:150px;
-  margin-left:75px;
+  margin-top:180px;
+  margin-left: 120px;
 }
 
 .profile{
-  height:600px;
+  height:100%;
 }
 
 body{
-  font-family: 'Oxygen', Arial, Helvetica, sans-serif;
+  font-family: 'Lato', Arial, Helvetica, sans-serif;
   font-size:20px;
+  font-weight:300;
+}
+
+.header{
+  font-size:48px;
+}
+
+.icon{
+  color:#b3b3b3;
+  padding-right:20px; 
+  padding-top:10px;
+}
+
+p{
+  padding-top:10px;
 }
