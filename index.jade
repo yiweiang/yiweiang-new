@@ -10,13 +10,13 @@ html
     script(src="scripts/ga.js")
     script(src="scripts/main.js")
     script(src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js")
-  body
+  body#top
     .nav
       p.active 
         a.scroll(href="#top") About Me
       p 
-        a.scroll(href="#middle") Curriculum Vitae
-    section.container#top
+        a.scroll(href="#middle") Where I've Worked
+    section.container
       .left-rail
         img.profile(src="images/yiwei.jpg")
       .right-rail
@@ -33,4 +33,10 @@ html
           a(href="https://www.github.com/yiweiang")
             i.icon.fa.fa-github.fa-lg
     section.cv#middle
-      h3 What I've built
+      span.header Where I've Worked
+        p.cvheader TradeGecko
+        p.cvsub Product Manager, Growth   
+        p.cvheader Microsoft
+        p.cvsub Program Manager 2, Developer Division 
+        p.cvheader IBM
+        p.cvsub UX Designer &amp Researcher for DB2
