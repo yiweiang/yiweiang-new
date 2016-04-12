@@ -13,7 +13,7 @@
 .cv{
   max-width:640px;
   min-width:640px;
-  height:600px;
+  height:550px;
   margin: 0 auto;
   margin-top:400px;
   position: relative;
@@ -97,107 +97,6 @@ p.cvheader{
   font-weight:600;
   font-size: 20px;
 }
-
-.one{
-  width:200px;
-  float:left;
-  margin-right:20px;
-  height:200px;
-  background-color:#f2f2f2;
-  line-height: 100px;
-  text-align: center;
-  position: absolute;
-  top:110px;
-  left:0px;
-  z-index:120;
-}
-.one-hover{
-  width:200px;
-  float:left;
-  margin-right:20px;
-  height:200px;
-  background-color:#e8e8e8;
-  text-align: center;
-  position: absolute;
-  top:110px;
-  left:0px;
-  z-index:100;
-}
-.two{
-  width:200px;
-  float:left;
-  margin-right:20px;
-  height:200px;
-  background-color:#e8e8e8;
-  line-height: 100px;
-  text-align: center;
-  position: absolute;
-  top:110px;
-  left:210px;
-  z-index:120;
-}
-
-.two-hover{
-  width:200px;
-  float:left;
-  margin-right:20px;
-  height:200px;
-  background-color:#e8e8e8;
-  line-height: 100px;
-  text-align: center;
-  position: absolute;
-  top:110px;
-  left:210px;
-  z-index:100;
-}
-
-
-.three{
-  width:200px;
-  float:left;
-  height:200px;
-  background-color:#e8e8e8;
-  line-height: 100px;
-  text-align: center;
-  position: absolute;
-  top:110px;
-  left:420px;
-  z-index:120;
-}
-
-.three-hover{
-  width:200px;
-  float:left;
-  height:200px;
-  background-color:#e8e8e8;
-  line-height: 100px;
-  text-align: center;
-  position: absolute;
-  top:110px;
-  left:420px;
-  z-index:100;
-}
-
-.one:hover{
-  cursor:pointer;
-  background-color:#f2f2f2;
-  opacity:0;
-
-}
-.two:hover{
-  cursor:pointer;
-  background-color:#f2f2f2;
-  opacity:0;
-
-}
-
-.three:hover{
-  cursor:pointer;
-  background-color:#f2f2f2;
-  opacity:0;
-
-}
-
 
 @media screen and (max-width: 480px) {
     .profile {

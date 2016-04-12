@@ -15,7 +15,22 @@ $(function(){
       
     $('html,body').animate({scrollTop:target_top}, 500);
     
-    main.children().removeClass();
-    $(this).parent().addClass('active');
+    //main.children().removeClass();
+    //$(this).parent().addClass('active');
+  })
+  
+  $(document).scroll(function(){
+    console.log($(document).scrollTop())
+    if($(document).scrollTop() > 300){
+      console.log("executed")
+      
+      $('.whereiveworked').parent().addClass('active');
+      $('.aboutme').parent().removeClass();
+    }
+    if($(document).scrollTop() < 300){
+      console.log("executed")
+      $('.aboutme').parent().addClass('active');
+      $('.whereiveworked').parent().removeClass();
+    }
   })
 })
