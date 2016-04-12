@@ -11,7 +11,12 @@ html
     script(src="scripts/main.js")
     script(src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js")
   body
-    .container
+    .nav
+      p.active 
+        a.scroll(href="#top") About Me
+      p 
+        a.scroll(href="#middle") Curriculum Vitae
+    section.container#top
       .left-rail
         img.profile(src="images/yiwei.jpg")
       .right-rail
@@ -27,3 +32,5 @@ html
             i.icon.fa.fa-linkedin.fa-lg
           a(href="https://www.github.com/yiweiang")
             i.icon.fa.fa-github.fa-lg
+    section.cv#middle
+      h3 What I've built
