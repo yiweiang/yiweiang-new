@@ -13,9 +13,9 @@
 .cv{
   max-width:640px;
   min-width:640px;
-  height:550px;
+  height:1000px;
   margin: 0 auto;
-  margin-top:500px;
+  margin-top:800px;
   position: relative;
   background-color:white;
   text-align:left;
@@ -24,6 +24,7 @@
 .cvtext{
   position:relative;
   left:330px;
+  top:200px;
 }
 
 p.active{
