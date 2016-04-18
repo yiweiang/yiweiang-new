@@ -1,8 +1,4 @@
 $(function(){
-  
-  if (window.location.protocol != "https:")
-    window.location.protocol = "https";
-  
   $('.container').hide();
   $('.container').fadeIn(1000);
   
