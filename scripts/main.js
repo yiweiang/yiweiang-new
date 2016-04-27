@@ -1,8 +1,5 @@
 $(function(){
   
-  $('.shell').hide();
-  $('.shell').fadeIn(1000);
-  
   var main = main = $('.nav');
   
   $('.scroll').click(function(event){
