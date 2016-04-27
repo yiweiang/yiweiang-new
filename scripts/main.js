@@ -1,7 +1,7 @@
 $(function(){
   
-  $('.container').hide();
-  $('.container').fadeIn(1000);
+  $('.shell').hide();
+  $('.shell').fadeIn(1000);
   
   var main = main = $('.nav');
   
